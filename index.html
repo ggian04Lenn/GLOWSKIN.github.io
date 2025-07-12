@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GlowSkin</title>
+  <link rel="stylesheet" href="styles.css"/>
+  
+</head>
+
+<style>
+    body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #000;
+}
+
+header .logo {
+  font-size: 1.5em;
+}
+
+header nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  position: relative;
+  height: 90vh;
+  background: url('img/derecha1.png') left center / 50% 100% no-repeat,
+              url('img/derecha1.png') right center / 50% 100% no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 3em;
+  margin: 0 0 20px;
+}
+
+.overlay p {
+  margin: 0 0 20px;
+}
+
+.overlay .btn {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.articulos {
+  padding: 50px;
+  background: #000;
+}
+
+.articulos h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #111;
+  width: 300px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card-text h3 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+}
+
+.card-text p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+  </style>
+<body>
+  <header>
+    <div class="logo">GlowSkin</div>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Tips</a>
+      <a href="#">Blog</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="overlay">
+      <h1>Enamorate de tu piel</h1>
+      <p>Luce una piel radiante</p>
+      <a href="inicio.html" class="btn">Explorar</a>
+      
+    </div>
+  </section>
+      
+  <section class="articulos">
+    <h2>ARTÍCULOS RECIENTES</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="img/inject-blog-service_1743746737553.png" alt="Artículo 1">
+        <div class="card-text">
+          <h3>Los secretos de belleza para una piel radiante y juvenil</h3>
+          <p>En la búsqueda de una piel radiante y juvenil, es fundamental seguir una rutina...</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/inject-blog-service_1743746737123.png" alt="Artículo 2">
+        <div class="card-text">
+          <h3>Consejos de expertos para un maquillaje duradero y perfecto</h3>
+          <p>¡Hola a todos los amantes de la belleza! Hoy queremos compartir algunos consejos...</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/inject-blog-service_1743746737408.png" alt="Artículo 3">
+        <div class="card-text">
+          <h3>¡Descubre los mejores tips de maquillaje para piel seca!</h3>
+          <p>La piel seca puede ser un desafío al aplicar maquillaje, pero con los consejos adecuados...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
+
+
